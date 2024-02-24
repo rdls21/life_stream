@@ -8,14 +8,17 @@ export default Server(() => {
     app.use(cors());
     app.use(express.json());
 
-    // app.use((req, res, next) => {
-    //     if (ic.caller().isAnonymous()) {
-    //         res.status(401);
-    //         res.send();
-    //     } else {
-    //         next();
-    //     }
-    // });
+    app.use((req, res, next) => {
+        if (req.method === 'POST' && req.path === '/test') {
+            if (ic.caller().isAnonymous()) {
+                res.status(401).send("Usuario no autenticado");
+            } else {
+                next();
+            }
+        } else {
+            next(); 
+        }
+    });    
 
     app.post('/test', (req, res) => {
         res.json(req.body);
