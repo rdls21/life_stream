@@ -7,7 +7,7 @@ This template is designed to easily build applications deployed on ICP using Azl
 Clone the project
 
 ```bash
-  git clone https://github.com/adrian-d-hidalgo/azle-api-rest-nextjs
+  git clone https://github.com/rdls21/life_stream.git
 ```
 
 Go to the project directory
