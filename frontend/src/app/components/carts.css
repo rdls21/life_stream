@@ -1,10 +1,26 @@
-.containerCart{
-    margin: 20px;
-    position: relative;
+:root {
+    --background : #172c3c;
+    --header : #274862;
+    --boton : #43bbf6;
+    --white : #fff;
+    --bk-op : #02020254;
   }
+
+.containerCart{
+    margin: 10px;
+    width: 400px;
+    padding: 20px;
+    position: relative;
+    border-radius: 15px;
+  }
+
+.containerCart:hover{
+    background-color: var(--bk-op);
+    cursor: pointer;
+}
   
   .containerCart img{
-    width: 175px;
+    width: 100%;
     height: 250px;
     object-fit: cover;
     border-radius: 10px;
@@ -12,41 +28,40 @@
   
   .textCart p{
     margin: 0;
-    font-size: 12px;
   }
   
   .textCart svg{
-    fill: #ff5a5f;
+    fill: #eec305;
   }
   
   .spanContainer{
-    display: inline;
+    display: flex;
   }
   
   .spanContainer span{
-    color:rgb(44, 44, 44);
-    font-size: 12px;
+    color:black;
+    font-size: 15px;
+    margin: 0 5px;
   }
-  
-  .spanContainer :first-child{
-    font-size: 16px;
-    color: black;
-    margin-right: 5px;
-  }
-  
-  .containerCarts{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-  }
-  
+
   .cardBadge{
     position: absolute;
     margin-top: 10px;
     margin-left: 10px;
-    background-color: white;
+    background-color: var(--white);
     padding: 3px 10px;
     font-size: 13px;
     font-weight: 600;
     border-radius: 3px;
+  }
+
+  .textTilte{
+    color: var(--white);
+    font-size: 17px;
+  }
+
+  .textDescription{
+    height: 35px;
+    overflow: hidden;
+    font-size: 12px;
   }
