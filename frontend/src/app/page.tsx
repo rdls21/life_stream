@@ -12,7 +12,7 @@ export default function Page() {
             <label htmlFor="searchbar"><input id="searchbar" type="text" /></label>
         </form>
         <div className="titleContainer">
-          <Link href={'../books'} ><button type="submit" className="btn btn-primary">Search</button></Link>
+          <Link href={'../ic-connect'} ><button type="submit" className="btn btn-primary">Search</button></Link>
         </div>
     </header>
   );
