@@ -13,7 +13,7 @@ Clone the project
 Go to the project directory
 
 ```bash
-  cd azle-api-rest-nextjs
+  cd life_stream
 ```
 
 Install dependencies
