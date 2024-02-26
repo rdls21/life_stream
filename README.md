@@ -1,6 +1,6 @@
-# Fullstack dApp (Azle + Express + NextJS + ICP)
+# Life Stream - Fullstack dApp (Azle + Express + NextJS + ICP)
 
-This template is designed to easily build applications deployed on ICP using Azle + Express for RESTful APIs and Next.js for frontend development.
+LifeStream redefines the landscape of video creation and distribution by harnessing the decentralized capabilities of blockchain technology. In a departure from conventional video platforms, LifeStream operates on a decentralized network, ensuring data integrity, resistance to censorship, and safeguarding user privacy.
 
 ## Run Locally
 
