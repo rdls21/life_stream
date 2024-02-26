@@ -39,7 +39,7 @@
   }
   
   .spanContainer span{
-    color:black;
+    color:white;
     font-size: 15px;
     margin: 0 5px;
   }
@@ -61,6 +61,7 @@
   }
 
   .textDescription{
+    color: var(--white);
     height: 35px;
     overflow: hidden;
     font-size: 12px;
