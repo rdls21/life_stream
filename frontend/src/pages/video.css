@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  --background : #172c3c;
+  --header : #274862;
+  --boton : #43bbf6;
+  --white : #fff;
+}
+
+
+.video-container {
+    width: 100vw;
+    height: 90vh;
+    overflow-y: scroll;
+    background-color: var(--background);
+    display: flex;
+  }
+  
+.playerContainer{
+  width: 70%;
+  height: 100%;
+}
+
+.player{
+  height: 70%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.player video{
+  height: 100%;
+}
+
+.playLIstContainer{
+  width: 30%;
+  height: 100%;
+}
+  

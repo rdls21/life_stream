@@ -28,15 +28,17 @@ export default function Page() {
       </form>
       { isLoggedIn ? (
       <div className="titleContainer">
-        <Link href={'../login'}><button type="submit" className="btn btn-primary">Log out</button></Link>
+        <Link href={'/'}><button type="submit" className="btn btn-primary">Log out</button></Link>
       </div>
       ) : (
       <div className="titleContainer">
-        <Link href={'../ic-connect'}><button type="submit" className="btn btn-primary">Log in</button></Link>
+        <Link href={'../login'}><button type="submit" className="btn btn-primary">Log in</button></Link>
       </div>
       )}
-    </header><main className="mainContainer">
+    </header>
+    <main className="mainContainer">
       {Cards}
-    </main></>
+    </main>
+    </>
   );
 }

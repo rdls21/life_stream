@@ -1,13 +1,14 @@
 import {FaStar} from "react-icons/fa"
 import "./cards.css"
 import { ReactElement, JSXElementConstructor, ReactNode, ReactPortal, PromiseLikeOfReactNode } from "react";
+import Link from "next/link";
 
 function Card(add: { item: { coverImg: any; stats: { rating: string | number | boolean | ReactElement<any, string | JSXElementConstructor<any>> | Iterable<ReactNode> | ReactPortal | PromiseLikeOfReactNode | null | undefined; tags: string | number | boolean | ReactElement<any, string | JSXElementConstructor<any>> | Iterable<ReactNode> | ReactPortal | PromiseLikeOfReactNode | null | undefined; }; title: string | number | boolean | ReactElement<any, string | JSXElementConstructor<any>> | Iterable<ReactNode> | ReactPortal | PromiseLikeOfReactNode | null | undefined; description: string | number | boolean | ReactElement<any, string | JSXElementConstructor<any>> | Iterable<ReactNode> | ReactPortal | PromiseLikeOfReactNode | null | undefined; }; }) {
 
     const images = (`/img/${add.item.coverImg}`)
 
     return(
-
+        <Link href={"../video"}>
         <div className="containerCart">
             <img src={images} alt=""></img>
             <div className="textCart">
@@ -20,6 +21,7 @@ function Card(add: { item: { coverImg: any; stats: { rating: string | number | b
                 <p className="textDescription">{add.item.description}</p>
             </div>  
         </div>
+        </Link>
     );
 }
 
