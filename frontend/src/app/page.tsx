@@ -4,7 +4,6 @@ import Card from "./components/cards";
 import CartData from "./data/videoData"
 
 
-
 export default function Page() {
 
   const isLoggedIn = false
@@ -33,7 +32,7 @@ export default function Page() {
       </div>
       ) : (
       <div className="titleContainer">
-        <Link href={'../login'}><button type="submit" className="btn btn-primary">Log in</button></Link>
+        <Link href={'../ic-connect'}><button type="submit" className="btn btn-primary">Log in</button></Link>
       </div>
       )}
     </header><main className="mainContainer">

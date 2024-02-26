@@ -1,6 +1,10 @@
+import Link from "next/link";
 import { AuthButton, useRestActor } from "@bundly/ic-react";
+import "./pages.css";
 
-export default function IcConnectPage() {
+// Login page ussing internet identity
+
+export default function LoginPage() {
     const backend = useRestActor("backend");
 
     async function testFunction() {
@@ -28,13 +32,19 @@ export default function IcConnectPage() {
     }
 
     return (
-        <div>
-            <h1>IC Connect</h1>
+        <><div className="loginForm">
+            <div className="imgContainer">
+                <Link href={"/"}>
+                <img alt="" src="/img/logoB.png"></img>
+                </Link>
+            </div>
             <AuthButton />
-            <div>
+            <hr className="solid"></hr>
+            <div className="developerZone">
+                <h1>Developer Zone</h1>
                 <button onClick={() => whoAmI()}>Who Am I</button>
                 <button onClick={() => testFunction()}>Test</button>
             </div>
-        </div>
+        </div></>
     );
 }

@@ -114,11 +114,46 @@
 } 
 
 .loginForm {
-  max-width: 500px;
-  min-width: 300px;
+  text-align: center;
+  max-width: 300px;
+  min-width: 100px;
+  min-height: 300px;
   max-height: 700px;
   width: 40%;
   height: 60%;
   margin: 100px auto;
   background-color: var(--header);
+  border-radius: 25px;
+}
+
+.imgContainer {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  width: 60%;
+}
+
+/* Solid border */
+hr.solid {
+  border-top: 3px solid #bbb;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.developerZone {
+  color: var(--white);
+}
+
+.developerZone button {
+  background-color: var(--boton);
+  border: none;
+  color: white;
+  padding: 5px 32px;
+  margin: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
 }
