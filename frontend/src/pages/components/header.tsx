@@ -20,6 +20,7 @@ export default function header(){
             { isLoggedIn ? (
             <div className="titleContainer">
                 <Link href={'/'}><button type="submit" className="btn btn-primary">Log out</button></Link>
+                <Link href={'/uploadvideo'}><button type="submit" className="btn btn-primary">Upload Video</button></Link>
             </div>
             ) : (
             <div className="titleContainer">

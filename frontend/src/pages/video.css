@@ -8,6 +8,7 @@
   --header : #274862;
   --boton : #43bbf6;
   --white : #fff;
+  --bk-op : #02020254;
 }
 
 
@@ -25,14 +26,23 @@
 }
 
 .player{
-  height: 70%;
+  height: 85%;
   padding: 20px;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
 }
 
 .player video{
-  height: 100%;
+  height: 75%;
+}
+
+.videoDescription{
+  height: 20%;
+  width: 100%;
+  background-color: var(--bk-op);
+  border-radius: 15px;
 }
 
 .playLIstContainer{

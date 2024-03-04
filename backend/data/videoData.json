@@ -1,0 +1,153 @@
+[
+    {
+        "id": 1,
+        "title": "Life Lessons with Katie Zaferes",
+        "description": "I will share with you what I call \"Positively Impactful Moments of Disappointment.\" Throughout my career, many of my highest moments only came after setbacks and losses. But learning from those difficult moments is what gave me the ability to rise above them and reach my goals.",
+        "coverImg": "miniature.png",
+        "stats": {
+            "rating": 5.0,
+            "tags": "react javascript"
+        }
+    },
+    {
+        "id": 2,
+        "title": "Exploring the Universe with Neil deGrasse Tyson",
+        "description": "Join me in a journey through the cosmos as we uncover the mysteries of the universe. From black holes to the birth of stars, we'll delve into the wonders of space exploration and scientific discovery.",
+        "coverImg": "universe_exploration.png",
+        "stats": {
+        "rating": 4.8,
+        "tags": "astronomy science"
+        }
+    },
+    {
+        "id": 3,
+        "title": "Healthy Cooking with Chef Jamie Oliver",
+        "description": "Discover the joy of cooking delicious and nutritious meals with fresh ingredients. In this series, I'll teach you simple yet flavorful recipes that will nourish your body and delight your taste buds.",
+        "coverImg": "healthy_cooking.png",
+        "stats": {
+        "rating": 4.9,
+        "tags": "cooking health"
+        }
+    },
+    {
+        "id": 4,
+        "title": "Financial Freedom with Warren Buffett",
+        "description": "Learn the principles of smart investing and wealth management from one of the most successful investors of our time. I'll share insights and strategies that can help you achieve financial independence and build a secure future.",
+        "coverImg": "financial_freedom.png",
+        "stats": {
+        "rating": 4.7,
+        "tags": "finance investing"
+        }
+    },
+    {
+        "id": 5,
+        "title": "Mindfulness Meditation with Deepak Chopra",
+        "description": "Embark on a journey of self-discovery and inner peace through mindfulness meditation. I'll guide you through techniques to quiet the mind, reduce stress, and cultivate a deeper sense of awareness and well-being.",
+        "coverImg": "mindfulness_meditation.png",
+        "stats": {
+        "rating": 4.9,
+        "tags": "mindfulness meditation"
+        }
+    },
+    {
+        "id": 6,
+        "title": "Fitness Fusion with Jillian Michaels",
+        "description": "Get ready to sweat and sculpt your body with a dynamic blend of cardio, strength training, and flexibility exercises. Join me for high-energy workouts that will challenge you and help you achieve your fitness goals.",
+        "coverImg": "fitness_fusion.png",
+        "stats": {
+        "rating": 4.8,
+        "tags": "fitness exercise"
+        }
+    },
+    {
+        "id": 7,
+        "title": "Art Therapy with Bob Ross",
+        "description": "Unleash your creativity and find solace in the beauty of art. In this series, I'll teach you how to paint landscapes, create happy little trees, and express yourself through the soothing power of artistic expression.",
+        "coverImg": "art_therapy.png",
+        "stats": {
+        "rating": 4.9,
+        "tags": "art therapy painting"
+        }
+    },
+    {
+        "id": 8,
+        "title": "Mastering Guitar with Carlos Santana",
+        "description": "Unlock the secrets of the guitar and unleash your musical potential with legendary guitarist Carlos Santana. From basic chords to advanced techniques, I'll guide you on a journey to mastering this timeless instrument.",
+        "coverImg": "guitar_mastery.png",
+        "stats": {
+        "rating": 4.7,
+        "tags": "guitar music"
+        }
+    },
+    {
+        "id": 9,
+        "title": "Adventure Photography with Jimmy Chin",
+        "description": "Capture breathtaking moments and epic landscapes with tips and tricks from renowned adventure photographer Jimmy Chin. Whether you're scaling mountains or exploring remote wilderness, I'll show you how to take stunning photographs that tell a story.",
+        "coverImg": "adventure_photography.png",
+        "stats": {
+        "rating": 4.8,
+        "tags": "photography adventure"
+        }
+    },
+    {
+        "id": 10,
+        "title": "Journalism Ethics with Christiane Amanpour",
+        "description": "Explore the principles of ethical journalism and the importance of truth and integrity in media. Drawing from my experience as a veteran journalist, I'll discuss key issues and challenges facing the industry today.",
+        "coverImg": "journalism_ethics.png",
+        "stats": {
+        "rating": 4.9,
+        "tags": "journalism ethics"
+        }
+    },
+    {
+        "id": 11,
+        "title": "DIY Home Renovation with Chip and Joanna Gaines",
+        "description": "Transform your living space into a haven of style and comfort with DIY home renovation tips from Chip and Joanna Gaines. From rustic farmhouse chic to modern minimalist design, I'll help you bring your vision to life.",
+        "coverImg": "home_renovation.png",
+        "stats": {
+        "rating": 4.8,
+        "tags": "DIY renovation home"
+        }
+    },
+    {
+        "id": 12,
+        "title": "Entrepreneurial Mindset with Elon Musk",
+        "description": "Discover the mindset and strategies that have propelled Elon Musk to success in business and innovation. From Tesla to SpaceX, I'll share insights into entrepreneurship and disruptive thinking that can inspire and empower you.",
+        "coverImg": "entrepreneurial_mindset.png",
+        "stats": {
+        "rating": 4.7,
+        "tags": "entrepreneurship innovation"
+        }
+    },
+    {
+        "id": 13,
+        "title": "Environmental Conservation with Jane Goodall",
+        "description": "Join me in protecting the planet and preserving biodiversity for future generations. I'll share stories from my work with chimpanzees and discuss the importance of environmental conservation and sustainable living.",
+        "coverImg": "environmental_conservation.png",
+        "stats": {
+        "rating": 4.9,
+        "tags": "environment conservation"
+        }
+    },
+    {
+        "id": 14,
+        "title": "Culinary Creativity with Gordon Ramsay",
+        "description": "Unleash your culinary creativity and elevate your cooking skills with tips and techniques from Chef Gordon Ramsay. From classic dishes to innovative recipes, I'll help you become a master in the kitchen.",
+        "coverImg": "culinary_creativity.png",
+        "stats": {
+        "rating": 4.8,
+        "tags": "cooking creativity"
+        }
+    },
+    {
+        "id": 15,
+        "title": "Digital Marketing Strategies with Gary Vaynerchuk",
+        "description": "Learn the latest digital marketing trends and strategies to grow your business and engage your audience online. From social media to content creation, I'll show you how to leverage digital platforms for maximum impact.",
+        "coverImg": "digital_marketing_strategies.png",
+        "stats": {
+        "rating": 4.9,
+        "tags": "marketing business"
+        }
+    }   
+    
+]
